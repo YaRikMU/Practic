@@ -69,36 +69,40 @@
                     Use the tabs below to identify what stage you're at so we can help you to move on to the
                     next phase of your project.
                 </p>
-                <ul>
-                    <li><button class="step-btn active" type="button">Design</button></li>
-                    <li><button class="step-btn" type="button">Develop</button></li>
-                    <li><button class="step-btn" type="button">Launch</button></li>
+                <ul class="step-filter-list">
+                    <li class="step-filter-item">
+                        <button class="step-btn active" type="button">Design</button>
+                    </li>
+                    <li class="step-filter-item">
+                        <button class="step-btn" type="button">Develop</button>
+                    </li>
+                    <li class="step-filter-item"><button class="step-btn" type="button">Launch</button></li>
                 </ul>
-                <ul>
+                <ul class="step-list">
                     <li class="step-list-item">
-                        <h3 class="step-title">1. Research</h3>
+                        <h3 class="step-titles">1. Research</h3>
                         <p class="step-item">
                             We can help you to better understand your target audience, enabling you to create a
                             more powerful value proposition for your business.
                         </p>
                     </li>
                     <li class="step-list-item">
-                        <h3 class="step-title">2. Requirements</h3>
+                        <h3 class="step-titles">2. Requirements</h3>
                         <p class="step-item">
-                            Based on research insights, we can help you to determine how your product and service
-                            should function.
+                            Based on research insights, we can help you to determine how your product and
+                            service should function.
                         </p>
                     </li>
 
                     <li class="step-list-item">
-                        <h3 class="step-title">3. UI Design</h3>
+                        <h3 class="step-titles">3. UI Design</h3>
                         <p class="step-item">
                             We’re able to create unique and aesthetically pleasing visual design solutions that
                             fulfil both your user needs and business goals.
                         </p>
                     </li>
                     <li class="step-list-item">
-                        <h3 class="step-title">4. Prototyping</h3>
+                        <h3 class="step-titles">4. Prototyping</h3>
                         <p class="step-item">
                             We can provide you with a clickable prototype so you can test and play with your
                             product; allowing you to get a better feel for the user experience.
@@ -108,57 +112,74 @@
                 <a class="step-bnt" href="">Contact us</a>
             </div>
         </section>
-        <section>
-            <h2>We’re proud of our work</h2>
-            <ul>
-                <li>
-                    <p><span>50+</span>Successfully completed projects</p>
-                </li>
-                <li>
-                    <p><span>35+</span>Happy and appreciative customers</p>
-                </li>
-                <li>
-                    <p><span>10</span>Combined years of experience</p>
-                </li>
-                <li>
-                    <p><span>23</span>Experienced and talented workers</p>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <img src="./images/sqo1.jpg" alt="Eyetelligence" width="545" height="402" />
-                    <h3>Eyetelligence – AI-based Eye Health</h3>
-                    <p>
-                        Eyetelligence is a medtech company using AI based software to recognise eye diseases.
-                        Appello software developed their website which has just been released.
-                    </p>
-                </li>
-                <li>
-                    <img src="./images/sqo2.jpg" alt="Give + Get" width="545" height="402" />
-                    <h3>Give + Get – Charity Challenger App</h3>
-                    <p>
-                        Give + Get is a modern charity app. “Give”, while joining a community of active people
-                        who complete challenges and reap the rewards they offer; “Get”.
-                    </p>
-                </li>
-                <li>
-                    <img src="./images/sqo3.jpg" alt="Voken" width="545" height="402" />
-                    <h3>Voken – Shared Childcare App</h3>
-                    <p>
-                        Voken lets people arrange childcare with families they trust, earn tokens and use for
-                        your own requests.
-                    </p>
-                </li>
-                <li>
-                    <img src="./images/sqo4.jpg" alt="Chattii" width="545" height="402" />
-                    <h3>Chattii – Disability Dating App</h3>
-                    <p>
-                        Chattii is born from the need to provide a space for people living with disabilities
-                        to connect, chat, and explore their love life.
-                    </p>
-                </li>
-            </ul>
-            <button type="button">See more</button>
+        <section class="works">
+            <div class="container">
+                <h2 class="works-title">We’re proud of our work</h2>
+                <ul class="works-list">
+                    <li class="works-item">
+                        <p class="works-text"><span class="works-numbers">50+</span>Successfully completed projects</p>
+                    </li>
+                    <li class="works-item">
+                        <p class="works-text"><span class="works-numbers">35+</span>Happy and appreciative<br />
+                            customers</p>
+                    </li>
+                    <li class="works-item">
+                        <p class="works-text"><span class="works-numbers">10</span>Combined years of<br /> experience
+                        </p>
+                    </li>
+                    <li class="works-item">
+                        <p class="works-text"><span class="works-numbers">23</span>Experienced and<br /> talented
+                            workers</p>
+                    </li>
+                </ul>
+                <ul class="product-list">
+                    <li class="product-item">
+                        <img class="product-img" src="./images/sqo1.jpg" alt="Eyetelligence" width="545" height="402" />
+                        <div class="product-wrapper">
+                            <h3 class="product-title">Eyetelligence – AI-based Eye Health</h3>
+                            <p class="product-text">
+                                Eyetelligence is a medtech company using AI based software to recognise eye
+                                diseases. Appello software developed their website which has just been released.
+                            </p>
+                        </div>
+
+                    </li>
+                    <li class="product-item">
+                        <img class="product-img" src="./images/sqo2.jpg" alt="Give + Get" width="545" height="402" />
+                        <div class="product-wrapper">
+                            <h3 class="product-title">Give + Get – Charity Challenger App</h3>
+                            <p class="product-text">
+                                Give + Get is a modern charity app. “Give”, while joining a community of active
+                                people who complete challenges and reap the rewards they offer; “Get”.
+                            </p>
+                        </div>
+
+                    </li>
+                    <li class="product-item">
+                        <img class="product-img" src="./images/sqo3.jpg" alt="Voken" width="545" height="402" />
+                        <div class="product-wrapper">
+                            <h3 class="product-title">Voken – Shared Childcare App</h3>
+                            <p class="product-text">
+                                Voken lets people arrange childcare with families they trust, earn tokens and use
+                                for your own requests.
+                            </p>
+                        </div>
+
+                    </li>
+                    <li class="product-item">
+                        <img class="product-img" src="./images/sqo4.jpg" alt="Chattii" width="545" height="402" />
+                        <div class="product-wrapper">
+                            <h3 class="product-title">Chattii – Disability Dating App</h3>
+                            <p class="product-text">
+                                Chattii is born from the need to provide a space for people living with disabilities
+                                to connect, chat, and explore their love life.
+                            </p>
+                        </div>
+
+                    </li>
+                </ul>
+                <button class="works-button" type="button">See more</button>
+            </div>
         </section>
         <section>
             <p>для настоящих ценителей атмосферы</p>
